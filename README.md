@@ -62,34 +62,34 @@ DROP ROLE IF EXISTS 'rol_reserva_A1B2C3';
 
 1. **Crear la base de datos y tablas**  
    ```bash
-   SOURCE 01_creacion_bd_tablas.sql;
+   CreacionBdTablas_A1B2C3D4E5F64789A0B1C2D3E4F50607.sql;
    ```
 
 2. **Insertar datos iniciales**  
    ```bash
-   SOURCE 02_insercion_datos.sql;
+   InsercionDatos_A1B2C3D4E5F64789A0B1C2D3E4F50607.sql;
    ```
 
 3. **Aplicar modificaciones de estructura**  
    ```bash
-   SOURCE 03_modificacion_tablas.sql;
+   ModificacionTablas_A1B2C3D4E5F64789A0B1C2D3E4F50607.sql;
    ```
 
 4. **Configurar usuarios y roles**  
    ```bash
-   SOURCE 04_usuarios_roles.sql;
+   UsuariosRoles_A1B2C3D4E5F64789A0B1C2D3E4F50607.sql;
    ```
 
 5. **Ejecutar consultas de prueba**  
    ```bash
-   SOURCE 05_consultas_condicionadas.sql;
-   SOURCE 06_consultas_ordenadas.sql;
-   SOURCE 07_consultas_agrupadas.sql;
+   ConsultasCondicionadas_A1B2C3D4E5F64789A0B1C2D3E4F50607.sql;
+   ConsultasOrdenadas_A1B2C3D4E5F64789A0B1C2D3E4F50607.sql;
+   ConsultasAgrupadas_A1B2C3D4E5F64789A0B1C2D3E4F50607.sql;
    ```
 
 6. **Probar operaciones de actualización y eliminación**  
    ```bash
-   SOURCE 08_abm_datos.sql;
+   AbmDatos_A1B2C3D4E5F64789A0B1C2D3E4F50607.sql;
    ```
 
 ---
